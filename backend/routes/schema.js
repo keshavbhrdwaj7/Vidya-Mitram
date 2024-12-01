@@ -22,6 +22,6 @@ const newuser = new mongoose.Schema({
 });
 
 
-const register = mongoose.model('signup', newuser, 'signup');
+const register = mongoose.model('Register', newuser, 'Register');
 
 export { register };
