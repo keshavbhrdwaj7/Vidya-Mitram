@@ -21,9 +21,9 @@ app.use(express.static(path.join(__dirname, '../')));
 // Use routes from routes.js
 app.use('/', routes);
 
-// Fallback to serve Index.html
+// Fallback to serve index.html
 app.get('/', (req, res) => {
-  res.sendFile(path.join(__dirname, '../Index.html')); // Explicitly serve Index.html
+  res.sendFile(path.join(__dirname, '../index.html')); // Explicitly serve index.html
 });
 
 // Start the server

@@ -27,12 +27,12 @@ await mongoose
 app.use(express.json());
 
 router.get('/', (req, res) => {
-  res.sendFile(path.join(__dirname, '..', 'Index.html')); //homepage
+  res.sendFile(path.join(__dirname, '..', 'index.html')); //homepage
 });
 
 // Uncomment HTML files from the root directory as you need
 //router.get('/home', (req, res) => {
-// res.sendFile(path.join(__dirname, '..', 'Index.html'));  // Correct path to the root
+// res.sendFile(path.join(__dirname, '..', 'index.html'));  // Correct path to the root
 // });
 
 //router.get('/signin', (req, res) => {
